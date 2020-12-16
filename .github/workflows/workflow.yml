@@ -44,6 +44,6 @@ jobs:
           cf_api: https://api.fr.cloud.gov
           cf_username: ${{ secrets.CG_USERNAME }}
           cf_password: ${{ secrets.CG_PASSWORD }}
-          cf_org: epa-sandbox
+          cf_org: sandbox-epa
           cf_space: heese.michael
 
