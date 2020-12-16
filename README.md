@@ -48,7 +48,7 @@ Uploading files...
 ```
 
 #### GitHub Actions
-There is a workflow that will build, test, and deploy the app to cloud.gov when a pull request is created against the master branch or changes are pushed to master.
+There is a workflow that will build, test, and deploy the app to cloud.gov when a pull request is created against the main branch or changes are pushed to master.
 
 [1]: https://git-scm.com/
 [2]: https://golang.org/
