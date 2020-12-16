@@ -1,0 +1,10 @@
+applications:
+  - name: my-go-demo
+    path: .
+    memory: 256M
+    routes: 
+      - route: my-go-demo.app.cloud.gov
+    env:
+      GOPACKAGENAME: mygodemoapp
+      GOVERSION: go1.14
+
