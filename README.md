@@ -10,7 +10,6 @@ This is a simple go webapp for demonstrating how to use GitHub Actions to deploy
 - [cf-cli][3]
 
 #### Clone the repository
-
 Clone the repository and `cd` into it:
 
 ```shell
@@ -36,7 +35,6 @@ Listening on port 8080
 ```
 
 #### Pushing the app to cloud.gov locally
-
 ```shell
 $ cf push .
 Pushing app . to org / space ...
