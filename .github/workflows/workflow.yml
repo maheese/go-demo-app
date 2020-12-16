@@ -33,7 +33,7 @@ jobs:
       - run: go test -run ''
 
   deploy:
-    if: github.event.push
+    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
     name: Deploy the app to cloud.gov
     runs-on: "ubuntu-latest"
     needs: test
