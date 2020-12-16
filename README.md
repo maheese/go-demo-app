@@ -1,4 +1,5 @@
 # go-demo-app
+![CodeQL](https://github.com/maheese/go-demo-app/workflows/CodeQL/badge.svg) ![Build, Test, Deploy](https://github.com/maheese/go-demo-app/workflows/Build,%20Test,%20Deploy/badge.svg)
 
 This is a simple go webapp for demonstrating how to use GitHub Actions to deploy to Cloud.gov. 
 
@@ -9,7 +10,6 @@ This is a simple go webapp for demonstrating how to use GitHub Actions to deploy
 - [cf-cli][3]
 
 #### Clone the repository
-
 Clone the repository and `cd` into it:
 
 ```shell
@@ -35,7 +35,6 @@ Listening on port 8080
 ```
 
 #### Pushing the app to cloud.gov locally
-
 ```shell
 $ cf push .
 Pushing app . to org / space ...
