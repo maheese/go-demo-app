@@ -4,7 +4,7 @@ import "testing"
 
 func TestOne(t *testing.T) {
 	got := 1 + 1
-	if got != 2 {
+	if got != 3 {
 		t.Errorf("1 + 1 = %d; want 2", got)
 	}
 }
