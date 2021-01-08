@@ -47,7 +47,7 @@ Uploading files...
 ```
 
 #### GitHub Actions
-There is a workflow that will build, test, and deploy the app to cloud.gov when a pull request is created or changes are pushed to main.  The worflow uses the [cg-cli-tools][4] action.  In order to use this action you will need to create a service account in cloud.gov and store the username and password as secrets in GitHub.  You can use the following command to create teh service account:
+There is a demo workflow in this repository that will build, test, and deploy the app to cloud.gov when a pull request is created or changes are pushed to main.  The worflow uses the [cg-cli-tools][4] action.  In order to use this action you will need to create a service account in cloud.gov and store the username and password as secrets in GitHub.  You can use the following command to create the service account:
 
 ```shell
 $ cf create-service cloud-gov-service-account space-deployer my-service-account
